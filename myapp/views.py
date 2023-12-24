@@ -4,3 +4,6 @@ from django.shortcuts import render, HttpResponse
 def home(request):
   # return HttpResponse("Hello, World")
   return render(request, "home.html") # Renders 'home.html' in the templates directory
+
+def todos(request):
+  return render(request, "todos.html")
