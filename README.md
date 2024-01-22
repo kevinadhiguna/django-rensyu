@@ -1,6 +1,6 @@
 # Django - Rensyu (To-do List)
 
-A to-do list, powered by Django (v4.2.8)
+A to-do list, powered by Django (v4.2.9)
 
 <br>
 
