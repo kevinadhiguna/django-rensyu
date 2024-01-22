@@ -1,8 +1,21 @@
-{% extends "base.html" %} {% block content %}
-<h1>Todo List</h1>
-<ul>
-	{% for todo in todos %}
-	<li>{{ todo.title }}: {% if todo.completed %}Completed{% else %}Incomplete{% endif %}</li>
-	{% endfor %}
-</ul>
+{% extends 'base.html' %}
+
+{% block title %}
+	To-do List
+{% endblock %}
+
+{% block content %}
+	<h1>Todo List</h1>
+	<ul>
+		{% for todo in todos %}
+			<li>
+				{{ todo.title }}: 
+					{% if todo.completed %}
+						Completed ✅
+					{% else %}
+						Incomplete
+					{% endif %}
+			</li>
+		{% endfor %}
+	</ul>
 {% endblock %}
