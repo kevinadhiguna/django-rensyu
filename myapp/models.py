@@ -5,6 +5,14 @@ class TodoItem(models.Model):
   title = models.CharField(max_length=200)
   completed = models.BooleanField(default=False)
 
+  def __str__(self):
+    status = ''
+    if self.completed:
+      status = 'Done'
+    else:
+      status = 'Will do'
+
+    return f'{self.title} ({status})'
 
 # ################################################ #
 # Run: python3 manage.py makemigrations            #
