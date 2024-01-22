@@ -92,9 +92,9 @@ python3 manage.py runserver
 
 ## To-do list
 
-- Generate `requirements.txt`
 - Make a Dockerfile
 - Add edit and delete buttons to modify activities
+- Generate `requirements.txt` ✅
 
 <br>
 
