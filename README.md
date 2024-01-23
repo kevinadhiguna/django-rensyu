@@ -92,8 +92,9 @@ python3 manage.py runserver
 
 ## To-do list
 
-- Make a Dockerfile
 - Add edit and delete buttons to modify activities
+- Put available routes in the docs
+- Make a Dockerfile
 - Generate `requirements.txt` ✅
 
 <br>
@@ -102,3 +103,8 @@ python3 manage.py runserver
 
 - [Learn Django in 20 Minutes!! - Tech With Tim](https://www.youtube.com/watch?v=nGIg40xs9e4)
 - [Jinja template](https://pastebin.com/AMzZVL12)
+
+
+<br>
+
+![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=django-rensyu&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
